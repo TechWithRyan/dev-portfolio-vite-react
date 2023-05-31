@@ -5,9 +5,10 @@ import { FaYoutube, FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa'
 const Main = () => {
     return (
         <div id='main'>
-            <img className="w-full h-screen object-cover object-left " src="https://cdn.pixabay.com/photo/2015/10/21/08/22/media-998990_1280.jpg" alt="photo" />
-            {/*            <iframe className="w-full h-screen object-cover object-left" src="https://cdn.pixabay.com/vimeo/241674181/natverk-12716.mp4?width=1280&hash=21bf5cb6abac1a5de51dd909d3ee66fd7e27ce54" frameborder="0"></iframe> */}
-            <div className="w-full h-screen absolute top-0 left-0 bg-white/60">
+            <img className="w-full h-screen object-cover object-left " src="https://cdn.pixabay.com/photo/2017/06/17/10/55/hot-air-balloon-2411851_1280.jpg" alt="photo" />
+            {/*             <img className="w-full h-screen object-cover object-left " src="https://cdn.pixabay.com/photo/2017/06/04/23/17/lighthouse-2372461_1280.jpg" alt="photo" />
+ */}            {/*            <iframe className="w-full h-screen object-cover object-left" src="https://cdn.pixabay.com/vimeo/241674181/natverk-12716.mp4?width=1280&hash=21bf5cb6abac1a5de51dd909d3ee66fd7e27ce54" frameborder="0"></iframe> */}
+            <div className="w-full h-screen absolute top-0 left-0 bg-white/0">
 
                 <div className='max-w-[700px] m-auto h-full flex flex-col justify-center lg:items-start items-center'>
                     <h1 className='sm:text-5xl text-4xl font-bold text-gray-800 '>I'm Ryan-Phillips</h1>
@@ -18,7 +19,7 @@ const Main = () => {
                                 1000, // Waits 1s
                                 'Coder', // Deletes 'One' and types 'Two'
                                 2000, // Waits 2s
-                                'Tech Enthusiast',
+                                'Tech Fan',
                                 2000,
                             ]}
                             wrapper="span"
