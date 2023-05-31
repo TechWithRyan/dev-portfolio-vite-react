@@ -11,15 +11,15 @@ const Main = () => {
             <div className="w-full h-screen absolute top-0 left-0 bg-white/0">
 
                 <div className='max-w-[700px] m-auto h-full flex flex-col justify-center lg:items-start items-center'>
-                    <h1 className='sm:text-5xl text-4xl font-bold text-gray-800 '>I'm Ryan-Phillips</h1>
+                    <h1 className='sm:text-5xl text-4xl font-bold text-white '>I'm Ryan-Phillips</h1>
                     <h2 className='flex sm:text-3xl text-2xl pt-4'>I'm a
                         <TypeAnimation
                             sequence={[
-                                'Developer', // Types 'One'
+                                'Web Developer 🤓', // Types 'One'
                                 1000, // Waits 1s
-                                'Coder', // Deletes 'One' and types 'Two'
+                                'Kind Person 😊', // Deletes 'One' and types 'Two'
                                 2000, // Waits 2s
-                                'Tech Fan',
+                                'Music Lover 🎶',
                                 2000,
                             ]}
                             wrapper="span"

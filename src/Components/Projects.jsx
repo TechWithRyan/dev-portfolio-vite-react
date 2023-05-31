@@ -13,8 +13,8 @@ const Projects = () => {
                 I first started with web development in 2007-2010. Then again from 2020 until now. Here you can browse my projects.
             </p>
             <div className='grid sm:grid-cols-2 gap-12'>
-                <ProjectItem img={googleImg} title='Netflix App' />
-                <ProjectItem img={netflixImg} title='Google App' />
+                <ProjectItem img={googleImg} title='Google App' />
+                <ProjectItem img={netflixImg} title='Netflix App' />
                 <ProjectItem img={facebookImg} title='Facebook App' />
                 <ProjectItem img={tiktokImg} title='Tiktok App' />
             </div>
